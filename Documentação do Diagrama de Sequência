@@ -1,0 +1,5 @@
+Cliente → Sistema de Pedidos: solicitar_status_pedido(1234)
+Sistema de Pedidos → Banco de Dados: get_status_pedido(1234)
+Banco de Dados → Sistema de Pedidos: Retorna "Em transporte"
+Sistema de Pedidos → Cliente: Retorna "Status do pedido 1234: Em transporte"
+
